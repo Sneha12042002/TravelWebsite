@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrapAlert&GroupButtons</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <!-- ALERTS -->
+    <div class="container-fluid">
+        <div class="alert alert-danger alert-dismissible fade show">
+            Please enter your password correct!
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+        <!-- alert: to show alert box
+        alert-primary: blue color
+        alert-secondary: grey color, alert-success,danger,warning,light,dark 
+        .fade .show : helps in fading the color of alert box while closing it 
+         &times; : shows cross(x) symbol in the alert box for closing the alert-->
+    </div>
+    
+    <!-- BUTTONS -->
+    <div class="container-fluid">
+        <div class="btn btn-primary">primary</div>
+        <div class="btn btn-secondary">secondary</div>
+        <div class="btn btn-warning">warning</div>
+        <div class="btn btn-light">light</div>
+        <div class="btn btn-dark">dark</div>
+        <div class="btn btn-danger">danger</div>
+        <div class="btn btn-success">success</div>
+        <a href="#" class="alert-link btn btn-secondary">link</a>
+    </div>
+</body>
+</html>
